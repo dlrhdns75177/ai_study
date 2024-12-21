@@ -12,7 +12,7 @@ class Person: #Person 클래스 생성
             self.age = int(input_info[2])
         print(f"이름: {self.name}, 성별: {self.gender}") #이름과 성별 같은 줄에 출력
         print(f"나이: {self.age}") #나이 다음 줄에 출력
-    def  greet(self): #클래스 내부에 인사 멘트 함수 선언
+    def greet(self): #클래스 내부에 인사 멘트 함수 선언
         if self.age < 10: #나이가 10살보다 적으면 
             print(f"안녕하세요, {self.name}! 어린이이시군요") #출력문
         elif self.age < 20: #나이가 20살보다 적으면 
